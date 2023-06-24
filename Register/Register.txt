@@ -1,0 +1,20 @@
+Register
+
+"phone" =  "9876543"
+"name"  =  "sagar"
+
+
+let r = new Register()
+r.put("phone","9876543")
+r.put("name","sagar")
+r.put("phone","23456")
+
+
+r.get("phone")  === "23456"
+r.get("name")  === "sagar"
+
+
+
+
+
+
